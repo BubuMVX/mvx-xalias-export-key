@@ -1,10 +1,36 @@
 # xAlias Export Key Userscript
 
-## Intro
+## Context
 
-This is an userscript to help you export your private key from xAlias, one of the login methods on MultiversX.
+xAlias is one of the login methods on MultiversX, helping novice and non-technical users to create and use a new wallet
+by linking it to their Google account.
 
-It allows you to retrieve your private key in various formats:
+xAlias provides users with a kind of encrypted backup in the form of a PDF file, and stores authentication data in
+Google Drive's hidden storage space dedicated to apps.
+
+Pros:
+
+- Quick and easy creation of a MultiversX wallet address.
+
+Cons:
+
+- Very few services and apps support xAlias as a login provider. In particular, you can't connect to the MultiversX Web
+  Wallet, send customized transactions and transfer funds easily.
+- There is no explicit way to use the PDF backup to recover a wallet.
+- The Google Drive's hidden storage space dedicated to apps isn't easy to access without coding.
+- xAlias requires users to give full access to their Google Drive files, with read and write permissions.
+- If you loose access to your Google account, you may loose your wallet.
+- Overall, there's no way to export your private keys and step up in your experience on MultiversX. "Not your keys, not
+  your wallet".
+
+This script goal is to give you back the full control of your xAlias wallet.
+
+## Solution
+
+This userscript helps you export your seed phrase and private key from xAlias. You can then use them with any MultiversX
+wallet: xPortal, the browser's extension, the Web Wallet, etc.
+
+It allows you to export your wallet in various formats:
 
 - Seed: a simple text file with your seed/mnemonic words. Be careful how you store it.
 - JSON: a keystore protected with a password. With a strong password, you can almost store it as it is.
