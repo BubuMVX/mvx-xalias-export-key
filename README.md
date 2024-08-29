@@ -1,6 +1,6 @@
-xAlias Export Key Userscript
+# xAlias Export Key Userscript
 
-# Intro
+## Intro
 
 This is an userscript to help you export your private key from xAlias, one of the login methods on MultiversX.
 
@@ -14,7 +14,7 @@ This program works by injecting itself into the xAlias web page, and adding func
 
 ![Preview of this userscript](preview.png)
 
-# Usage
+## Usage
 
 1. Install
    Tampermonkey ([Chrome](https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) / [Firefox](https://addons.mozilla.org/fr/firefox/addon/tampermonkey/))
@@ -23,7 +23,7 @@ This program works by injecting itself into the xAlias web page, and adding func
    or [click here for an automatic installation](https://github.com/BubuMVX/mvx-xalias-export-key/raw/main/dist/xalias-export-key.user.js).
 3. Visit https://xalias.com/ and login to get access to the export options.
 
-# Build
+## Build
 
 For security reasons, this script is fully open source. You can review the code and build it by yourself.
 
@@ -52,6 +52,6 @@ patching this lib once installed:
 2. Search for `if(!nodeFS)nodeFS=require("fs");`
 3. Comment it
 
-# Credits
+## Credits
 
 This tool exists thanks to the amazing [Userscripter](https://github.com/SimonAlling/userscripter).
