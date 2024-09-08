@@ -1,5 +1,9 @@
 # xAlias Export Key Userscript
 
+## The official way
+
+The (hidden?!) wallet recovery page: https://xalias.com/recover
+
 ## Context
 
 xAlias is one of the login methods on MultiversX, helping novice and non-technical users to create and use a new wallet
@@ -16,11 +20,11 @@ Cons:
 
 - Very few services and apps support xAlias as a login provider. In particular, you can't connect to the MultiversX Web
   Wallet, send customized transactions and transfer funds easily.
-- There is no explicit way to use the PDF backup to recover a wallet.
 - The Google Drive's hidden storage space dedicated to apps isn't easy to access without coding.
 - xAlias requires users to give full access to their Google Drive files, with read and write permissions.
 - If you loose access to your Google account, you may loose your wallet.
-- Overall, there's no way to export your private keys and step up in your experience on MultiversX. "Not your keys, not
+- Overall, there's no easy way to export your private keys and step up in your experience on MultiversX. "Not your keys,
+  not
   your wallet".
 
 This script goal is to give you back the full control of your xAlias wallet.
